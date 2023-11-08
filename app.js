@@ -62,7 +62,7 @@ if (process.env.NODE_ENV === 'production') {
 app.use(errorHandler);
 
 //port
-const port = process.env.PORT || 8000
+const port = process.env.PORT || mern-jobportal-rh5a.onrender.com
 
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
