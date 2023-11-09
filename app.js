@@ -34,6 +34,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(cookieParser());
 app.use(cors());
+app.use(express.json());
 
 //ROUTES MIDDLEWARE
 // app.get('/', (req, res) => {
